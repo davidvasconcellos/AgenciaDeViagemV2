@@ -78,8 +78,8 @@ h2 {
  border-radius: 4px;
 }
 .input_button{
-  margin-left: 50px;
-  width: 200px;
+  margin-left: 10px;
+  width:  200px;
   background-color: var(--cor-banner);
   color: var(--cor-secondary);
   font-weight: bold ;
