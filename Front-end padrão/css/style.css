@@ -1,0 +1,41 @@
+:root{
+  --cor-primary:#000000;
+  --cor-secondary:#ffffff;
+  --cor-bg-primary:#434F59;
+  --cor-bg-secondary:#F28157;
+  --cor-bg-tertiary:#F27457;
+  --cor-bg-quaternary:#F25757;
+}
+body {
+  padding:0px;
+  margin:0px;
+}
+
+#menu ul {
+  padding:0px;
+  margin:0px;
+  float: left;
+  width: 100%;
+  background-color:var(--cor-bg-secondary);
+  list-style:none;
+  font:80% Tahoma;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+  background-color:var(--cor-bg-secondary);
+  color:var(--cor-primary) ;
+  text-decoration: none;
+  border-bottom:3px solid var(--cor-bg-secondary);
+  padding: 2px 20px;
+  float:left;
+  font-weight: bold;
+  font-size: 20x;
+}
+
+#menu ul li a:hover {
+  background-color:#ffffff;
+  color: #6D6D6D;
+  border-bottom:3px solid var(--cor-bg-quaternary);
+}
