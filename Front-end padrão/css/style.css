@@ -33,7 +33,7 @@ body {
   padding: 20px 20px 20px 20px;
   float:left;
   font-weight: bold;
-  font-size: 100x;
+  font-size: 18px;
   color: var(--cor-secondary);
 }
 
@@ -71,6 +71,9 @@ table, tr, td, img{
   width: 300px;
   border-radius: 10px;
 }
+img.img_local{
+  height: 200px;
+}
 h2 {
  text-align: center;
  background-color: var(--cor-bg-primary);
@@ -85,6 +88,7 @@ h2 {
   font-weight: bold ;
   padding: 2px 2px 2px 2px;
   border-radius: 10px;
+  font-size: 16px;
 }
 .input_button:hover {
   background-color: var(--cor-bg-quaternary);
@@ -155,6 +159,7 @@ textarea {
   color: var(--cor-secondary);
   font-weight: bold;
   margin-left: 50px;
+  font-size: 16px;
 }
 .table2, thead, tr, th{
   text-align: center;
