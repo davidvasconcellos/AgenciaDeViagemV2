@@ -10,28 +10,113 @@
 <body>
   <nav>
     <div id="menu">
+      <div id="logo_img">
+        <img src="https://static.wixstatic.com/media/779ee9_9fccd8e6bceb4ad0af2c35d5d64c103e~mv2.png/v1/crop/x_0,y_34,w_665,h_567/fill/w_134,h_113,al_c,q_85,usm_0.66_1.00_0.01/29118586.webp" alt="logo">
+      </div>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="destinos.html">Destinos</a></li>
-        <li><a href="promocoes.html">Promoções</a></li>
-        <li><a href="contatos.html">Contatos</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#destino">Destinos</a></li>
+        <li><a href="#promocoes">Promoções</a></li>
+        <li><a href="#contatos">Contatos</a></li>
+        <div class="login_cadastro">
+          <li ><a>Login</a></li>
+          <li ><a>Cadastro</a></li>
+        </div>
         <!-- <li><img src="https://static.wixstatic.com/media/779ee9_9fccd8e6bceb4ad0af2c35d5d64c103e~mv2.png/v1/crop/x_0,y_34,w_665,h_567/fill/w_134,h_113,al_c,q_85,usm_0.66_1.00_0.01/29118586.webp" alt="logo"></li> -->
       </ul>
     </div>
   </nav>
   <main>
-    <div>
-      <div>
-        <h1>Destinos</h1>
+    <div><a name="home"></a>
+      <div class="layout">
+
       </div>
+
       <div>
-        <h1>Promoção</h1>
+        <h2><a name="destinos"></a>Destinos</h2>
+        <table class="locais">
+          <tr>
+            <th>Salvador</th>
+            <th>Rio de Janeiro</th>
+            <th>São Paulo</th>
+          </tr>
+          <tr>
+            <td><img src="https://viagemeturismo.abril.com.br/wp-content/uploads/2016/12/9-salvador-copy.jpeg?quality=70&strip=info&w=1024" alt="Salvador"> </td>
+            <td><img src="https://s2.glbimg.com/EjFgWZTAI2r2bdzZnZROgQ4V3BY=/0x0:2048x1365/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/6/k/Mc8FdjTAaGxaRXLTspeQ/3756139071-7503cdbe19-o.jpg" alt="Rio de Janeiro"></td>
+            <td><img src="https://cetesb.sp.gov.br/wp-content/uploads/2018/05/saopaulo.jpg" alt="São Paulo"></td>
+          </tr>
+          <tr>
+            <td><input class="input_button" type="button" value="BUSCAR VOOS"</td>
+            <td><input class="input_button" type="button" value="BUSCAR VOOS"</td>
+            <td><input class="input_button" type="button" value="BUSCAR VOOS"</td>
+          </tr>
+        </table>
       </div>
+      <!-- Seção apra promoções -->
       <div>
-        <h1>Contatos</h1>
+        <h2><a name="promocoes"></a>OS MELHORES PACOTES PARA 2022 EM ATÉ 12X</h2>
+        
+        <table class="locais_promo">
+          <tr>
+            <td><img src="../src/promo 1.png" alt="promo1"></td>
+            <td><img src="../src/promo 2.png" alt="promo1"></td>
+            <td><img src="../src/promo 3.png" alt="promo1"></td>
+          </tr>
+          <tr>
+            <td><input class="input_button" type="button" value="COMPRAR"</td>
+            <td><input class="input_button" type="button" value="COMPRAR"</td>
+            <td><input class="input_button" type="button" value="COMPRAR"</td>
+          </tr>
+        </table>
       </div>
     </div>
+    </div>
   </main>
-  <footer></footer>
+  <footer class="footer">
+      <!-- Seção para contatos -->
+      <div>
+        <h2><a name="contatos"></a>CONTATOS</h2>
+        <div class="contatos">
+          <table class="table2">
+            <thead>
+              <tr>
+                <th>Sobre nós</th>
+                <th>Fale com a gente</th>
+            </thead>
+            <tbody>
+              <tr>
+                <!-- Texto sobre a empresa -->
+                <td class="td_form">
+                  <div>
+                    <img src="https://s2.glbimg.com/M_L8jcZdEmkiFeJZBpd1XHiIXSg=/1080x608/top/smart/http://g.glbimg.com/og/gs/gsat4/f/thumbs/materia/2015/03/11/info-calculadora-viagem.jpg" alt="">
+                    <h4>Somos a Digital Viagem  e faremos acontecer aquela sua viagem que antes nem parecia possível, mas agora é. Nascemos da ideia de que viajar é para todos e é transformador. Venha com a gente!</h4>
+                  </div>
+                </td>
+                <!-- Formulario de contato -->
+                <td class="td_form">
+                  <form action="/formulario-contato" method="post">
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="texto" id="nome" name="nome_usuario">
+                    </div>
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email_usuario">
+                    </div>
+                    <div>
+                        <label for="texto">Texto:</label>
+                        <textarea id="texto" name="texto_usuario"></textarea>
+                    </div>
+                    <div class="button">
+                      <button id="button" type="submit">Enviar</button>
+                    </div>
+                </form>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+
+  </footer>
 </body>
 </html>
