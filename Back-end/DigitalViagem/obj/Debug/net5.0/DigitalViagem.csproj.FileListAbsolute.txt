@@ -69,3 +69,4 @@ C:\Users\David\Desktop\AgenciaDeViagemV2\Back-end\DigitalViagem\obj\Debug\net5.0
 C:\Users\David\Desktop\AgenciaDeViagemV2\Back-end\DigitalViagem\obj\Debug\net5.0\ref\DigitalViagem.dll
 C:\Users\David\Desktop\AgenciaDeViagemV2\Back-end\DigitalViagem\obj\Debug\net5.0\DigitalViagem.pdb
 C:\Users\David\Desktop\AgenciaDeViagemV2\Back-end\DigitalViagem\obj\Debug\net5.0\DigitalViagem.genruntimeconfig.cache
+C:\Users\David\Desktop\AgenciaDeViagemV2\Back-end\DigitalViagem\obj\Debug\net5.0\Razor\Views\Cliente\Index.cshtml.g.cs
