@@ -55,7 +55,6 @@ C:\Users\David\Desktop\AgenciaDeViagemV2\Back-end\DigitalViagem\obj\Debug\net5.0
 C:\Users\David\Desktop\AgenciaDeViagemV2\Back-end\DigitalViagem\obj\Debug\net5.0\DigitalViagem.TagHelpers.output.cache
 C:\Users\David\Desktop\AgenciaDeViagemV2\Back-end\DigitalViagem\obj\Debug\net5.0\DigitalViagem.RazorCoreGenerate.cache
 C:\Users\David\Desktop\AgenciaDeViagemV2\Back-end\DigitalViagem\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\David\Desktop\AgenciaDeViagemV2\Back-end\DigitalViagem\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\David\Desktop\AgenciaDeViagemV2\Back-end\DigitalViagem\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\David\Desktop\AgenciaDeViagemV2\Back-end\DigitalViagem\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\David\Desktop\AgenciaDeViagemV2\Back-end\DigitalViagem\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -70,3 +69,5 @@ C:\Users\David\Desktop\AgenciaDeViagemV2\Back-end\DigitalViagem\obj\Debug\net5.0
 C:\Users\David\Desktop\AgenciaDeViagemV2\Back-end\DigitalViagem\obj\Debug\net5.0\DigitalViagem.pdb
 C:\Users\David\Desktop\AgenciaDeViagemV2\Back-end\DigitalViagem\obj\Debug\net5.0\DigitalViagem.genruntimeconfig.cache
 C:\Users\David\Desktop\AgenciaDeViagemV2\Back-end\DigitalViagem\obj\Debug\net5.0\Razor\Views\Cliente\Index.cshtml.g.cs
+C:\Users\David\Desktop\AgenciaDeViagemV2\Back-end\DigitalViagem\obj\Debug\net5.0\Razor\Views\Home\Destinos.cshtml.g.cs
+C:\Users\David\Desktop\AgenciaDeViagemV2\Back-end\DigitalViagem\obj\Debug\net5.0\Razor\Views\Destinos\Viagem.cshtml.g.cs
