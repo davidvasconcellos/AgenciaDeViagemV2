@@ -1,0 +1,182 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+:root {
+    --cor-primary: #000000;
+    --cor-secondary: #ffffff;
+    --cor-bg-primary: #434F59;
+    --cor-bg-secondary: #F28157;
+    --cor-bg-tertiary: #F27457;
+    --cor-bg-quaternary: #F25757;
+    --cor-banner: #FD3C00;
+
+}
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #ffffff;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+.my-custom-scrollbar {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+.carousel-tamanho{
+    width:1000px;
+    height:500px;
+
+    }
+
+.navbar-color {
+    background-color: #F28157;
+  }
+
+.bg-transparente {
+    background-color: #ffffff;
+    opacity: 0.8;
+}
+.tirar-transparente {
+    font-weight: bold;
+    color: #000000;
+}
+#btn-viagem {
+    background-color: #FD3C00;
+    border: 1px solid black;
+    width: 11rem;
+    font-weight:bold;
+}
+#btn-viagem:hover {
+   background-color: #52b788;
+   border: 1px solid black;
+   align-content:center;
+   font-weight: bold;
+   color: #ffba08;
+ }
+
+
+.gallery_product .title{
+  color:#000;
+  margin: 0;
+  text-align:center;
+  font-size:18px;
+  font-weight:500;
+  
+}
+.gallery_product .title small{
+  display:block;
+}
+.imgbanner {
+    height: 140px;
+    width: 300px;
+    max-width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    border-radius:10px;
+    margin-bottom:10px;
+}
+.imgbanner:hover {
+    -moz-transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
+}
+.card {
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.card:hover {
+    -moz-transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
+}
+.textorodape{
+    text-align:justify;
+}
+.textoprecoant {
+    color: #FD3C00;
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.textopreconov {
+    color: #000000;
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.imgbanner2 {
+    width: 10rem;
+    height:auto;
+    border: 2px solid #000000;
+}
