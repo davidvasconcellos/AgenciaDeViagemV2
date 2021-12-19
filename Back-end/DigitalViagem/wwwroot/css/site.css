@@ -112,4 +112,65 @@ body {
     width: 12rem;
     font-weight:bold;
 }
+#btn-viagem:hover {
+   background-color: #52b788;
+   border: 1px solid black;
+   width: 12rem;
+   font-weight: bold;
+   color: #ffba08
+ }
 
+
+.gallery_product .title{
+  color:#000;
+  margin: 0;
+  text-align:center;
+  font-size:18px;
+  font-weight:500;
+  
+}
+.gallery_product .title small{
+  display:block;
+}
+.imgbanner {
+    height: 140px;
+    max-width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    border-radius:10px;
+    margin-bottom:10px;
+}
+.imgbanner:hover {
+    -moz-transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
+}
+.card {
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.card:hover {
+    -moz-transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
+}
+.textorodape{
+    text-align:justify;
+}
+.textoprecoant {
+    color: #FD3C00;
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.textopreconov {
+    color: #000000;
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
