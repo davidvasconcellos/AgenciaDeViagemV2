@@ -71,7 +71,7 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
-.footer {carousel-tamanho
+.footer {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -109,15 +109,15 @@ body {
 #btn-viagem {
     background-color: #FD3C00;
     border: 1px solid black;
-    width: 12rem;
+    width: 11rem;
     font-weight:bold;
 }
 #btn-viagem:hover {
    background-color: #52b788;
    border: 1px solid black;
-   width: 12rem;
+   align-content:center;
    font-weight: bold;
-   color: #ffba08
+   color: #ffba08;
  }
 
 
@@ -134,6 +134,7 @@ body {
 }
 .imgbanner {
     height: 140px;
+    width: 300px;
     max-width: 100%;
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -173,4 +174,9 @@ body {
     text-align: center;
     font-size: 18px;
     font-weight: 500;
+}
+.imgbanner2 {
+    width: 10rem;
+    height:auto;
+    border: 2px solid #000000;
 }
