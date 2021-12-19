@@ -1,6 +1,15 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
+:root {
+    --cor-primary: #000000;
+    --cor-secondary: #ffffff;
+    --cor-bg-primary: #434F59;
+    --cor-bg-secondary: #F28157;
+    --cor-bg-tertiary: #F27457;
+    --cor-bg-quaternary: #F25757;
+    --cor-banner: #FD3C00;
 
+}
 a.navbar-brand {
   white-space: normal;
   text-align: center;
@@ -9,7 +18,7 @@ a.navbar-brand {
 
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+  color: #ffffff;
 }
 
 .btn-primary {
@@ -62,7 +71,7 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
-.footer {
+.footer {carousel-tamanho
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -78,3 +87,29 @@ body {
 .table-wrapper-scroll-y {
     display: block;
 }
+
+.carousel-tamanho{
+    width:1000px;
+    height:500px;
+
+    }
+
+.navbar-color {
+    background-color: #F28157;
+  }
+
+.bg-transparente {
+    background-color: #ffffff;
+    opacity: 0.8;
+}
+.tirar-transparente {
+    font-weight: bold;
+    color: #000000;
+}
+#btn-viagem {
+    background-color: #FD3C00;
+    border: 1px solid black;
+    width: 12rem;
+    font-weight:bold;
+}
+
