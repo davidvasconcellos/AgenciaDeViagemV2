@@ -137,8 +137,8 @@ body {
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
-    border-radius:10px;
-    margin-bottom:10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 .imgbanner:hover {
     -moz-transform: scale(1.06);
@@ -180,4 +180,11 @@ body {
 }
 #Mudarestad {
     display: nome;
+}
+
+.iconcart {
+    width: 35px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
 }
