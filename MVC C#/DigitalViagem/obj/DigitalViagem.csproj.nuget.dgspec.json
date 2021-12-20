@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\David\\Desktop\\AgenciaDeViagemV2\\MVC C#\\DigitalViagem\\DigitalViagem.csproj": {}
+    "C:\\Users\\David\\Downloads\\AgenciaDeViagemV2\\MVC C#\\DigitalViagem\\DigitalViagem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\David\\Desktop\\AgenciaDeViagemV2\\MVC C#\\DigitalViagem\\DigitalViagem.csproj": {
+    "C:\\Users\\David\\Downloads\\AgenciaDeViagemV2\\MVC C#\\DigitalViagem\\DigitalViagem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\David\\Desktop\\AgenciaDeViagemV2\\MVC C#\\DigitalViagem\\DigitalViagem.csproj",
+        "projectUniqueName": "C:\\Users\\David\\Downloads\\AgenciaDeViagemV2\\MVC C#\\DigitalViagem\\DigitalViagem.csproj",
         "projectName": "DigitalViagem",
-        "projectPath": "C:\\Users\\David\\Desktop\\AgenciaDeViagemV2\\MVC C#\\DigitalViagem\\DigitalViagem.csproj",
+        "projectPath": "C:\\Users\\David\\Downloads\\AgenciaDeViagemV2\\MVC C#\\DigitalViagem\\DigitalViagem.csproj",
         "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\David\\Desktop\\AgenciaDeViagemV2\\MVC C#\\DigitalViagem\\obj\\",
+        "outputPath": "C:\\Users\\David\\Downloads\\AgenciaDeViagemV2\\MVC C#\\DigitalViagem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\programas\\Complementos - Visual Studio\\NuGetPackages",
