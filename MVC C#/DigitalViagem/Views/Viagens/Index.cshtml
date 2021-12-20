@@ -1,0 +1,141 @@
+﻿@model DigitalViagem.Models.Viagem;
+@{
+	ViewData["Title"] = "Viagens";
+	var viagens = ViewData["viagens"] as List<Viagem>;
+}
+
+<h1>Gerenciamento de Clientes</h1>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Cadastrados de Viagens:</h2>
+			<div class="table-wrapper-scroll-y my-custom-scrollbar col-md-12">
+				<table class="table table-hover table-responsive">
+					<thead>
+						<tr>
+							<th>Id</th>
+							<th>Origem</th>
+							<th>Destino</th>
+							<th>Data de Partida</th>
+							<th>Data de Volta</th>
+							<th>Valor</th>
+							<th>Status</th>
+						</tr>
+					</thead>
+					<tbody>
+						@{
+							foreach (var viagem in viagens)
+							{
+								<tr>
+									<td>@viagem.Id</td>
+									<td>@viagem.Origem</td>
+									<td>@viagem.Destino</td>
+									<td>@viagem.DataPartida</td>
+									<td>@viagem.DataVolta</td>
+									<td>@viagem.Valor</td>
+									<td>@viagem.Status</td>
+									<td>
+										<form asp-controller="Viagem" asp-action="Deletar">
+											<button class="btn btn-danger" type="submit">Deletar</button>
+											<input asp-for="Id" style="visibility:hidden;" type="text" value="@viagem.Id">
+										</form>
+									</td>
+								</tr>
+							}
+							}
+					</tbody>
+				</table>
+			</div>
+			<hr />
+			<h2>Adicionar Viagem:</h2>
+			<form asp-action="Incluir">
+				<div class="form-row">
+					<div class="form-group col-md-6">
+						<label for="">Origem:</label>
+						<input asp-for="Origem" type="text" class="form-control" id="inputOrigem" placeholder="Salvador">
+					</div>
+					<div class="form-group col-md-6">
+						<label for="">Destino:</label>
+						<input asp-for="Destino" type="text" class="form-control" id="inputDestino" placeholder="Gramado">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="">Data de Partida:</label>
+					<input asp-for="DataPartida" type="date" class="form-control" id="inputDataPartida">
+				</div>
+				<div class="form-group">
+					<label for="">Data de Volta</label>
+					<input asp-for="DataVolta" type="date" class="form-control" id="inputDataVolta">
+				</div>
+				<div class="form-row">
+					<div class="form-group col-md-6">
+						<label for="">Valor:</label>
+						<input asp-for="Valor" type="text" class="form-control" id="inputData" placeholder="1500">
+					</div>
+
+					<div class="form-group col-md-4">
+						<label for="">Status:</label>
+						<select asp-for="Status" id="" class="form-control">
+							<option selected>Escolher...</option>
+							<option>Disponivel</option>
+							<option>Esgotado</option>
+							<option>Cancelado</option>
+						</select>
+					</div>
+				</div>
+				<button type="submit" class="btn btn-success">Incluir</button>
+			</form>
+			<br />
+			<hr />
+			<br />
+			<h2>Atualizar Dados</h2>
+			<form asp-controller="Viagem" asp-action="Atualizar">
+				<div class="form-row">
+					<div class="form-group col-md-3">
+						<label for="">Código da Viagem</label>
+						<select class="custom-select" asp-for="Id">
+							<option selected>-- Selecione um código</option>
+							@{
+								foreach (var viagem in viagens)
+								{
+									<option>@viagem.Id</option>
+								}
+							}
+						</select>
+					</div>
+					<div class="form-group col-md-6">
+						<label for="">Origem:</label>
+						<input asp-for="Origem" type="text" class="form-control" id="" placeholder="Salvador">
+					</div>
+					<div class="form-group col-md-3">
+						<label for="">Destino:</label>
+						<input asp-for="Destino" type="text" class="form-control" id="" placeholder="São Paulo">
+					</div>
+					<div class="form-group col-md-9">
+						<label for="">Data de Partida:</label>
+						<input asp-for="DataPartida" type="date" class="form-control" id="">
+					</div>
+					<div class="form-group col-md-3">
+						<label for="">Data de Volta:</label>
+						<input asp-for="DataVolta" type="date" class="form-control" id="">
+					</div>
+					<div class="form-group col-md-3">
+						<label for="">Valor:</label>
+						<input asp-for="Valor" type="text" class="form-control" id="" placeholder="1500">
+					</div>
+					<div class="form-group col-md-3">
+						<label for="">Status</label>
+						<select class="custom-select" asp-for="Status">
+							<option selected>-- Selecione uma opção</option>
+							<option>Disponível</option>
+							<option>Esgotado</option>
+							<option>Cancelado</option>
+						</select>
+					</div>
+				</div>
+				<button type="submit" class="btn btn-primary">Atualizar</button>
+			</form>
+		</div>
+	</div>
+</div>

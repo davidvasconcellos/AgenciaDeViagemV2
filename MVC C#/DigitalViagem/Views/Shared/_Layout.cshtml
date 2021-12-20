@@ -28,6 +28,9 @@
 						<li class="nav-item">
 							<a class="nav-link text-white" asp-area="" asp-controller="Cliente" asp-action="Index">Clientes</a>
 						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" asp-area="" asp-controller="Viagens" asp-action="Index">Viagens</a>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -65,7 +68,8 @@
 							<label for="exampleFormControlTextarea1">Mensagem:</label>
 							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 						</div>
-						<button type="submit" class="btn btn-primary">Enviar</button>
+						<button type="submit" onclick="funcaoAlert()" class="btn btn-primary">Enviar</button>
+						
 					</form>
 				</div>
 				<div class="col-4 ">

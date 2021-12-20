@@ -5763,11 +5763,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\David\\Desktop\\AgenciaDeViagemV2\\Back-end\\DigitalViagem\\DigitalViagem.csproj",
+      "projectUniqueName": "C:\\Users\\David\\Desktop\\AgenciaDeViagemV2\\MVC C#\\DigitalViagem\\DigitalViagem.csproj",
       "projectName": "DigitalViagem",
-      "projectPath": "C:\\Users\\David\\Desktop\\AgenciaDeViagemV2\\Back-end\\DigitalViagem\\DigitalViagem.csproj",
+      "projectPath": "C:\\Users\\David\\Desktop\\AgenciaDeViagemV2\\MVC C#\\DigitalViagem\\DigitalViagem.csproj",
       "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\David\\Desktop\\AgenciaDeViagemV2\\Back-end\\DigitalViagem\\obj\\",
+      "outputPath": "C:\\Users\\David\\Desktop\\AgenciaDeViagemV2\\MVC C#\\DigitalViagem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\programas\\Complementos - Visual Studio\\NuGetPackages",

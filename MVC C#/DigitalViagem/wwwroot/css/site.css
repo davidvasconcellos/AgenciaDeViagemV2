@@ -109,13 +109,11 @@ body {
 #btn-viagem {
     background-color: #FD3C00;
     border: 1px solid black;
-    width: 11rem;
     font-weight:bold;
 }
 #btn-viagem:hover {
    background-color: #52b788;
    border: 1px solid black;
-   align-content:center;
    font-weight: bold;
    color: #ffba08;
  }
@@ -179,4 +177,7 @@ body {
     width: 10rem;
     height:auto;
     border: 2px solid #000000;
+}
+#Mudarestad {
+    display: nome;
 }

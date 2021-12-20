@@ -1,18 +1,19 @@
 ﻿@{
 	ViewData["Title"] = "Home Page";
+	var compra = "Compra adicionada ao carrinho";
 }
 <div class="row">
 	<!--Seção banner esquerdo-->
 	<div class="col-sm-2 container">
-			<div>
-				<div class="card-deck img-fluid py-2">
-					<img class="imgbanner2 rounded" src="https://i.ibb.co/BB6ZNPw/469591-conjo-de-banner-de-viagem-vetor.png" alt="" />
-				</div>
-				<div class="card-deck img-fluid py-2">
-					<img class="imgbanner2 rounded" src="https://i.ibb.co/j5WDn8S/469591-conjunto-de-banner-de-viaadsagem-vetor.png" alt="" />
-				</div>
+		<div>
+			<div class="card-deck img-fluid py-2">
+				<img class="imgbanner2 rounded" src="https://i.ibb.co/BB6ZNPw/469591-conjo-de-banner-de-viagem-vetor.png" alt="" />
+			</div>
+			<div class="card-deck img-fluid py-2">
+				<img class="imgbanner2 rounded" src="https://i.ibb.co/j5WDn8S/469591-conjunto-de-banner-de-viaadsagem-vetor.png" alt="" />
 			</div>
 		</div>
+	</div>
 	<div class="container col-md-7">
 		<!--Seção do carousel-->
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -51,27 +52,27 @@
 			<main>
 				<!--Seção contendos os card fixos-->
 				<div class="container col-md-12">
-					<h4 class="display-8">OS MELHORES PACOTES PARA 2022 EM ATÉ 12X</h4>
-					<div class="row justify-content-around">
+					<h4 class="text-center">OS MELHORES PACOTES PARA 2022 EM ATÉ 12X</h4>
+					<div class="row justify-content-around py-2">
 						<!--Primeiro card-->
-						<div class="card col-md-4">
+						<div class="card col-md-4 text-center">
 							<img class="card-img-top" src="https://i.ibb.co/dBsTq0s/promo-1.png" alt="Imagem de capa do card">
-							<div class="card-body">
-								<a href="#" id="btn-viagem" class="btn btn-primary">Comprar</a>
+							<div class="card-body text-center">
+								<button type="button" onclick="mostrar()" class="btn btn-primary" id="btn-viagem" value="Comprar">Comprar</button>
 							</div>
 						</div>
 						<!--Segundo card-->
-						<div class="card col-md-4">
+						<div class="card col-md-4 text-center">
 							<img class="card-img-top" src="https://i.ibb.co/cXcf1tx/promo-2.png" alt="Imagem de capa do card">
 							<div class="card-body">
-								<a href="#" id="btn-viagem" class="btn btn-primary">Comprar</a>
+								<button type="button" onclick="mostrar()" class="btn btn-primary" id="btn-viagem" value="Comprar">Comprar</button>
 							</div>
 						</div>
 						<!--Terceiro card-->
-						<div class="card col-md-4">
+						<div class="card col-md-4 text-center">
 							<img class="card-img-top" src="https://i.ibb.co/dPKfS1x/promo-3.png" alt="Imagem de capa do card">
 							<div class="card-body">
-								<a href="#" id="btn-viagem" class="btn btn-primary">Comprar</a>
+								<button type="button" onclick="mostrar()" class="btn btn-primary" id="btn-viagem">Comprar</button>
 							</div>
 						</div>
 					</div>
@@ -79,39 +80,39 @@
 				<!--Seção contendo os card com zoom-->
 				<div class="container">
 					<hr />
-					<h4 class="display-8">VOOS COM ATÉ 50% DE DESCONTO</h4>
+					<h4 class="text-center">VOOS COM ATÉ 50% DE DESCONTO</h4>
 					<br />
 					<div class="row justify-content-around">
-						<div class="col-md-4">
-							<div class="gallery_product border border-warning border-right-0 border-left-0">
+						<div class="col-md-4 text-center">
+							<div class="gallery_product">
 								<a href="#"><img class="imgbanner" src="https://www.praiasdenatal.com.br/wp-content/uploads/2014/08/Natal-RN1.jpg" class="img-responsive"></a>
 								<h4 class="title">NATAL</h4>
 								<h4 class="textoprecoant">R$ 484</h4>
 								<h4 class="textopreconov">R$ 297</h4>
 								<div class="card-body">
-									<a href="#" id="btn-viagem" class="btn btn-primary">Comprar</a>
+									<button type="button" onclick="mostrar()" class="btn btn-primary" id="btn-viagem" value="Comprar">Comprar</button>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
-							<div class="gallery_product border border-warning border-right-0 border-left-0">
+						<div class="col-md-4 text-center">
+							<div class="gallery_product">
 								<a href="#"><img class="imgbanner" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/21/4d/46/arraial-d-ajuda-eco-resort.jpg?w=400&h=300&s=1" class="img-responsive"></a>
 								<h4 class="title">PORTO SEGURO</h4>
 								<h4 class="textoprecoant">R$ 729</h4>
 								<h4 class="textopreconov">R$ 675</h4>
 								<div class="card-body">
-									<a href="#" id="btn-viagem" class="btn btn-primary">Comprar</a>
+									<button type="button" onclick="mostrar()" class="btn btn-primary" id="btn-viagem" value="Comprar">Comprar</button>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
-							<div class="gallery_product border border-warning border-right-0 border-left-0">
+						<div class="col-md-4 text-center">
+							<div class="gallery_product">
 								<a href="#"><img class="imgbanner" src="https://www.vidadeturista.com/wp-content/uploads/2009/03/recife-pe.jpg" class="img-responsive"></a>
 								<h4 class="title">RECIFE</h4>
 								<h4 class="textoprecoant">R$ 551</h4>
 								<h4 class="textopreconov">R$ 351</h4>
 								<div class="card-body">
-									<a href="#" id="btn-viagem" class="btn btn-primary">Comprar</a>
+									<button type="button" onclick="mostrar()" class="btn btn-primary" id="btn-viagem" value="Comprar">Comprar</button>
 								</div>
 							</div>
 						</div>
@@ -122,13 +123,13 @@
 	</div>
 	<!--Seção do banner direito-->
 	<div class="col-md-2">
-			<div>
-				<div class="card-deck img-fluid py-2">
-					<img class="imgbanner2 rounded" src="https://i.ibb.co/pPc2Vvr/469591-conjunto-de-banner-de-gem-vetor.png" alt="" />
-				</div>
-				<div class="card-deck img-fluid py-2">
-					<img class="imgbanner2 rounded" src="https://i.ibb.co/9T1YcVt/480394-banners-verticais-de-verao-praia-2-vetor.png" alt="" />
-				</div>
+		<div>
+			<div class="card-deck img-fluid py-2">
+				<img class="imgbanner2 rounded" src="https://i.ibb.co/pPc2Vvr/469591-conjunto-de-banner-de-gem-vetor.png" alt="" />
+			</div>
+			<div class="card-deck img-fluid py-2">
+				<img class="imgbanner2 rounded" src="https://i.ibb.co/9T1YcVt/480394-banners-verticais-de-verao-praia-2-vetor.png" alt="" />
 			</div>
 		</div>
+	</div>
 </div>

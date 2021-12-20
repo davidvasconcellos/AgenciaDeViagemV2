@@ -1,8 +1,15 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
-
-// Write your JavaScript code.
+﻿
 //Movimentação do carrousel
 $('.carousel').carousel({
     interval: 2000
 })
+
+//Função do botão forms
+function funcaoAlert() {
+    alert("Sua mensagem foi enviada com sucesso, Obrigado!");
+}
+
+//Mensagem compra
+function mostrar() {
+    alert("Sua compra foi adicionada no carrinho!");
+}
